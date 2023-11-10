@@ -1,0 +1,9 @@
+sudo hdiutil attach /tmp/镜像名 -nobrowse
+#静默挂载DMG镜像
+
+sudo installer -pkg "/Volumes/挂载镜像安装包的位置/Installer.pkg" -target /
+#将挂载镜像进行安装
+
+
+sudo hdiutil detach "/Volumes/ESET Endpoint Security"
+#镜像取消挂载
