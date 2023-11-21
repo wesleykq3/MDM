@@ -1,0 +1,42 @@
+<dict>
+	<key>Restrictions</key>
+	<array>
+		<dict>
+			<key>Attributes</key>
+			<dict>
+				<key>bundleId</key>
+				<array>
+					<string>com.baidu.tiebaHD</string>
+					<string>com.baidu.tieba</string>
+					<string>com.baidu netdisk-iPad</string>
+					<string>com.baidu.netdisk</string>
+					<string>com.baidu.BaiduNetdisk-mac</string>
+					<string>com.baidu.baiduiminstaller</string>
+					<string>com.alibaba.quark.clouddrive</string>
+					<string>com.alicloud.smartdrive</string>
+					<string>org.filezilla-project.filezilla-server</string>
+					<string>org.filezilla-project filezilla.sandbox</string>
+					<string>org.filezilla-project.filezilla</string>
+				</array>
+			</dict>
+			<key>Actions</key>
+			<array>
+			<integer>1</integer>
+			</array>
+			<key>Message</key>
+			<string>You are not permitted to use App</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Restricted Software Policy</string>
+	<key>PayloadIdentifier</key>
+	<string>HubSettings.f42ec66c-a411-472a-990d-70242bf3b6bc</string>
+	<key>PayloadOrganization</key>
+	<string>VMware</string>
+	<key>PayloadType</key>
+	<string>com.vmware.hub.mac.restrictions</string>
+	<key>PayloadUUID</key>
+	<string>f42ec66c-a411-472a-990d-70242bf3b6bc</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
