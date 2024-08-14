@@ -1,0 +1,7 @@
+JAMF通过API设置Recovery Lock
+#通过获取设备序列号，再通过设备序列号获取managementId，再通过managementId设置指定的Recovery Lock密码，为空也就是清除密码
+
+#1、登录JAMF在脚本根据实际情况设置如下账户密码
+#2、创建动态组，条件是Apple silicon芯片设备，可以再加近来注册的设备的条件
+#3、创建Policy关联脚本
+#4、JAMF搜索设备找到Security-Recovery Lock查看设置密码
