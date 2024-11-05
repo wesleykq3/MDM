@@ -1,9 +1,14 @@
 #!/bin/bash
 
+read realName
+realName="${realName:=itadmin}"
 read username
-username="${username:=admin}"
+username="${username:=itadmin}"
 read passw
 passw="${passw:=1234}"
+if [ -d "/Volumes/Macintosh HD - Data" ]; then
+   			diskutil rename "Macintosh HD - Data" "Data"
+fi
 dscl_path='/Volumes/Data/private/var/db/dslocal/nodes/Default'
 dscl -f "$dscl_path" localhost -create "/Local/Default/Users/$username"
 dscl -f "$dscl_path" localhost -create "/Local/Default/Users/$username" UserShell "/bin/zsh"
